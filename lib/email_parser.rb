@@ -17,12 +17,6 @@ class EmailParser
   def parse 
     @csv_emails = @csv_emails.gsub(/[\s,]/ ," ").split 
     @csv_emails.uniq 
-    end
-    
   end
-  
-  
-    
-  
 end
 

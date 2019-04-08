@@ -18,6 +18,7 @@ class EmailParser
     csv_emails.split.map do |emails|
       emails.split(',')
     end
+    
   end
   
   

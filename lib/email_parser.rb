@@ -5,7 +5,10 @@
 
 class EmailParser
   
-  def self.parse(emails)
+  attr_accessor :name, :csv_emails 
+  
+  def initialize(csv_emails)
+    binding.pry 
    
   end
     

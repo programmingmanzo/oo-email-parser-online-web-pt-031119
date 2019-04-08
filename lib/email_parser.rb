@@ -6,7 +6,7 @@
 class EmailParser
   
   def self.parse(emails)
-    binding.pry 
+   
   end
     
   

@@ -13,6 +13,14 @@ class EmailParser
     @csv_emails = csv_emails
     #binding.pry 
   end
+  
+  def parse 
+    csv_emails.split.map do |emails|
+      emails.split(',')
+    end
+  end
+  
+  
     
   
 end
